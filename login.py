@@ -7,6 +7,7 @@ app = Flask(__name__)
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     num1 = 10
+    num2 = 20
     return 'login page'
 
 
